@@ -1,9 +1,20 @@
 body {
     background-color: aliceblue;
 }
-
-.box{
+.box-bg{
     background-color: white;
     border: 1px solid black;
     padding: 5px;
+}
+
+.container{
+    display: flex;
+}
+
+.navigation{
+    flex: 200px 0 0;
+}
+
+.content{
+    flex: 0px 1 1;
 }
