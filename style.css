@@ -1,20 +1,21 @@
 body {
     background-color: aliceblue;
-}
-.box-bg{
-    background-color: white;
-    border: 1px solid black;
-    padding: 5px;
-}
 
-.container{
-    display: flex;
 }
 
 .navigation{
-    flex: 200px 0 0;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid black;
+    background-color: white;
+    height: 40px;
+    padding-left: 0px;
 }
 
-.content{
-    flex: 0px 1 1;
+.navigation li {
+    list-style-type: none;
+    flex: 0 0 auto;
 }
